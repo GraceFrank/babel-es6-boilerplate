@@ -1,0 +1,5 @@
+RUN: npm i @babel/core @babel/node @babel/preset-env --save-dev
+CREATE FILE: .babelrc
+RUN: npm i regenerator-runtime
+RUN: npm i babel-polyfill
+PACKAGE.JSON: 
